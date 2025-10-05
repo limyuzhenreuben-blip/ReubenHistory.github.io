@@ -1,0 +1,112 @@
+.main-title {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.main-pic {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border: solid red 10px;
+    border-radius: 10px;
+}
+
+.main-table {
+    background-color: rgb(4, 255, 108);
+    width: 90%;
+    margin: auto;
+    color: snow;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-table td {
+    width: 33.33%;
+    padding: 30px;
+}
+
+#title-row {
+    background-color: yellow;
+    color: black;
+    font-size: 25px;
+}
+
+
+iframe{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+nav  {
+    background-color: chartreuse;
+}
+
+.navbar-toggler {
+    background-color: gold;
+}
+
+.fade-in{
+    background-color: aqua;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    opacity:0;
+    animation: fade-in-anim 2s ease-in forwards;
+}
+
+@keyframes fade-in-anim{
+    form{
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.color-changing {
+    background-color: black;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    animation: color-anim 0.7s infinite;
+}
+
+@keyframes color-anim {
+    0% {color: brown;}
+    5% {color: tan}
+    10% {color:gold}
+    15% {color: lime}
+    20% {color: red}
+    25% {color: purple}
+    35% {color:yellow}
+    40% { color: cornflowerblue}
+    45% {color: magenta}
+    50% { color: maroon}
+}
+
+
+.glide-x img {
+    width: 40%;
+    animation: glide-anim 3s ease-in-out infinite;
+}
+
+@keyframes glide-anim {
+    form {
+        transform: translateX(-400%);
+    }
+
+    to {
+        transform: translateX(400%);   
+    }
+}

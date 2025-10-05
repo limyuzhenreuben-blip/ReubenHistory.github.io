@@ -1,0 +1,152 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(to bottom, #050449,#2E0854);
+}
+
+.quiz-title{
+    text-align: center;
+    background-color: teal;
+    font-size: 28px;
+    padding: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: thistle;
+    animation: drop-anim 4s ease-in-out forwards;
+}
+
+@keyframes drop-anim {
+    form {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.quiz-container { 
+    width: 800px;
+    height: 450px;
+    background-color:rgb(175, 14, 14);
+    margin:auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+
+.progress-bar-bg {
+    width: 90%;
+    height: 12px;
+    background-color: lightcyan;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+.progress-bar-fill {
+    width: 50%;
+    height: 12PX;
+    background-color: cornflowerblue;       
+    border-radius: 10px;
+}
+
+.question { 
+    color: aqua;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.drop-down {
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-weight: 800;
+    background-color: limegreen;
+}
+
+.START {
+    margin: auto;
+    display: block;
+    margin-top: 169px;
+    width: 101px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+.START:hover {
+    background-color: aquamarine;
+    
+}
+
+.timer {
+    background-color: aqua;
+    font-size: 36px;
+    width: 120px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 30px;
+    border-radius: 60%;
+    padding: 50PX 10px;
+}
+
+.option-btu {
+    display: block; 
+    margin: auto;
+    width: 75%;
+    font-size: 28px;
+    font-family: 'press start 2p,';
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.option-btu:hover {
+    background-color: aqua;
+}
+
+
+.score-label {
+    color: cyan;
+    font-size: 30px;
+    font-family: 'press start 2p', cursive;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.feedback-label{
+    color: aqua;
+    font-size: 12px;
+    font-family: 'press  start', cursive;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.bgm-dropdown {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    background-color: turquoise;
+}
+
+.music-btn {
+    margin: auto;
+    display: block;
+}
+
+
+
